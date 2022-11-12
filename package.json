@@ -1,0 +1,58 @@
+{
+  "name": "vscode-mars-utils",
+  "type": "module",
+  "description": "mars的工具包",
+  "version": "0.0.3",
+  "displayName": "Mars Utils",
+  "publisher": "russellmars",
+  "icon": "images/mo.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/russellmars/vscode-mars-utils"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package": "vsce package",
+    "release": "vsce package && vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-html.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.3",
+    "vsce": "^2.14.0",
+    "vue": "^3.2.45"
+  }
+}

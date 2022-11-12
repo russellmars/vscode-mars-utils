@@ -1,0 +1,8 @@
+{
+  "i18n script": {
+    "prefix": "$t",
+    "body": [
+      "this.\\$t('${1:lang}');$0"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "vue 3 init": {
+    "prefix": "vinit",
+    "body": [
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  name: '$TM_FILENAME_BASE',",
+      "})",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    $TM_FILENAME_BASE",
+      "  </div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>"
+    ]
+  },
+  "vue 2 init": {
+    "prefix": "vinit2",
+    "body": [
+      "<script>",
+      "export default {",
+      "  name: '$TM_FILENAME_BASE',",
+      "}",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    $TM_FILENAME_BASE",
+      "  </div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>"
+    ]
+  }
+}

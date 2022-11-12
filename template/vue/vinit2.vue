@@ -1,0 +1,14 @@
+<script>
+export default {
+  name: '$TM_FILENAME_BASE',
+}
+</script>
+
+<template>
+  <div>
+    $TM_FILENAME_BASE
+  </div>
+</template>
+
+<style lang="scss" scoped>
+</style>
