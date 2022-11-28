@@ -27,6 +27,19 @@ const javascript = [
   }
 ]
 
+const css = [
+  {
+    name: '多行省略',
+    prefix: 'multi-ellipsis',
+    template: 'template/css/multi-ellipsis.css'
+  },
+  {
+    name: '文字渐变',
+    prefix: 'text-fill',
+    template: 'template/css/text-fill.css'
+  }
+]
+
 const config = [
   {
     path: 'snippets/vue.json',
@@ -39,6 +52,10 @@ const config = [
   {
     path: 'snippets/javascript.json',
     snippets: javascript
+  },
+  {
+    path: 'snippets/css.json',
+    snippets: css
   }
 ]
 

@@ -2,7 +2,7 @@
   "name": "vscode-mars-utils",
   "type": "module",
   "description": "mars的工具包",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "displayName": "Mars Utils",
   "publisher": "russellmars",
   "icon": "images/mo.png",
@@ -14,7 +14,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "package": "vsce package",
-    "release": "vsce package && vsce publish"
+    "release": "npm run build && npm run package && vsce publish"
   },
   "engines": {
     "vscode": "^1.0.0"
@@ -47,6 +47,18 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.json"
       }
     ]
   },

@@ -1,0 +1,11 @@
+span {
+  display: inline;
+  color: #9dfff0;
+
+  @supports (-webkit-text-fill-color: transparent) and (background-clip: text) {
+    background: linear-gradient(180deg, #ffffff 0%, #9dfff0 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}

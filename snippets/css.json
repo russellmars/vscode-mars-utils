@@ -1,0 +1,31 @@
+{
+  "多行省略": {
+    "prefix": "multi-ellipsis",
+    "body": [
+      "div {",
+      "  display: -webkit-box;",
+      "  text-overflow: ellipsis;",
+      "  overflow: hidden;",
+      "  -webkit-line-clamp: 2;",
+      "  -webkit-box-orient: vertical;",
+      "  word-break: break-word;",
+      "}"
+    ]
+  },
+  "文字渐变": {
+    "prefix": "text-fill",
+    "body": [
+      "span {",
+      "  display: inline;",
+      "  color: #9dfff0;",
+      "",
+      "  @supports (-webkit-text-fill-color: transparent) and (background-clip: text) {",
+      "    background: linear-gradient(180deg, #ffffff 0%, #9dfff0 100%);",
+      "    background-clip: text;",
+      "    -webkit-text-fill-color: transparent;",
+      "    color: transparent;",
+      "  }",
+      "}"
+    ]
+  }
+}
