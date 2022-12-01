@@ -1,8 +1,1 @@
-{
-  "i18n template": {
-    "prefix": "$t",
-    "body": [
-      "\\$t('${1:lang}')"
-    ]
-  }
-}
+{}

@@ -12,19 +12,9 @@ const vue = [
 ]
 
 const vueHtml = [
-  {
-    name: 'i18n template',
-    prefix: '$t',
-    template: 'template/vue-html/i18nt.md'
-  }
 ]
 
 const javascript = [
-  {
-    name: 'i18n script',
-    prefix: '$t',
-    template: 'template/javascript/i18nt.md'
-  }
 ]
 
 const css = [
