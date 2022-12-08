@@ -2,7 +2,7 @@
   "name": "vscode-mars-utils",
   "type": "module",
   "description": "mars的工具包",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "displayName": "Mars Utils",
   "publisher": "russellmars",
   "icon": "images/mo.png",
