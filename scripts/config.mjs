@@ -1,6 +1,6 @@
 const vue = [
   {
-    name: 'vue 3 init',
+    name: 'vue 3 typescript init',
     prefix: 'vinit',
     template: 'template/vue/vinit.vue'
   },
@@ -8,6 +8,11 @@ const vue = [
     name: 'vue 2 init',
     prefix: 'vinit2',
     template: 'template/vue/vinit2.vue'
+  },
+  {
+    name: 'vue 2 typescript init',
+    prefix: 'vinit2ts',
+    template: 'template/vue/vinit2ts.vue'
   }
 ]
 
