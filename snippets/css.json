@@ -1,30 +1,36 @@
 {
-  "多行省略": {
-    "prefix": "multi-ellipsis",
+  "单行省略": {
+    "prefix": "ellipsis",
     "body": [
-      "div {",
-      "  display: -webkit-box;",
-      "  text-overflow: ellipsis;",
-      "  overflow: hidden;",
-      "  -webkit-line-clamp: 2;",
-      "  -webkit-box-orient: vertical;",
-      "  word-break: break-word;",
-      "}"
+      "white-space: nowrap;",
+      "text-overflow: ellipsis;",
+      "overflow: hidden;",
+      "line-height: 1.35;"
+    ]
+  },
+  "多行省略": {
+    "prefix": "ellipsis-multi",
+    "body": [
+      "display: -webkit-box;",
+      "text-overflow: ellipsis;",
+      "overflow: hidden;",
+      "-webkit-line-clamp: 2;",
+      "-webkit-box-orient: vertical;",
+      "word-break: break-word;",
+      "line-height: 1.35;"
     ]
   },
   "文字渐变": {
     "prefix": "text-fill",
     "body": [
-      "span {",
-      "  display: inline-block;",
-      "  color: #9dfff0;",
+      "display: inline-block;",
+      "color: #9dfff0;",
       "",
-      "  @supports (-webkit-text-fill-color: transparent) and (-webkit-background-clip: text) {",
-      "    background: linear-gradient(180deg, #ffffff 0%, #9dfff0 100%);",
-      "    -webkit-background-clip: text;",
-      "    -webkit-text-fill-color: transparent;",
-      "    color: transparent;",
-      "  }",
+      "@supports (-webkit-text-fill-color: transparent) and (-webkit-background-clip: text) {",
+      "  background: linear-gradient(180deg, #ffffff 0%, #9dfff0 100%);",
+      "  -webkit-background-clip: text;",
+      "  -webkit-text-fill-color: transparent;",
+      "  color: transparent;",
       "}"
     ]
   }

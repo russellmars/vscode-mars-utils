@@ -24,14 +24,19 @@ const javascript = [
 
 const css = [
   {
+    name: '单行省略',
+    prefix: 'ellipsis',
+    template: 'template/css/ellipsis.txt'
+  },
+  {
     name: '多行省略',
-    prefix: 'multi-ellipsis',
-    template: 'template/css/multi-ellipsis.css'
+    prefix: 'ellipsis-multi',
+    template: 'template/css/ellipsis-multi.txt'
   },
   {
     name: '文字渐变',
     prefix: 'text-fill',
-    template: 'template/css/text-fill.css'
+    template: 'template/css/text-fill.txt'
   }
 ]
 

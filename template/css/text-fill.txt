@@ -1,0 +1,9 @@
+display: inline-block;
+color: #9dfff0;
+
+@supports (-webkit-text-fill-color: transparent) and (-webkit-background-clip: text) {
+  background: linear-gradient(180deg, #ffffff 0%, #9dfff0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
