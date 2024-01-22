@@ -13,6 +13,11 @@ const vue = [
     name: 'vue 2 typescript init',
     prefix: 'vinit2ts',
     template: 'template/vue/vinit2ts.vue'
+  },
+  {
+    name: 'vue setup',
+    prefix: 'vinitsetup',
+    template: 'template/vue/vinitsetup.vue'
   }
 ]
 
